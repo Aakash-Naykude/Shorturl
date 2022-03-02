@@ -1,6 +1,8 @@
 const express = require("express");
 const router = express.Router();
 const Shorturl = require("../model/short.model");
+
+
 router.post("/", async (req, res) => {
   console.log(req.body);
   try {
