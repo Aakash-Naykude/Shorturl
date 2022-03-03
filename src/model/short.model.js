@@ -1,11 +1,6 @@
 const mongoose = require("mongoose");
 const ShortID = require("shortid");
 
-
-
-
-
-
 const shortUrlSchema = new mongoose.Schema(
   {
     full: {
